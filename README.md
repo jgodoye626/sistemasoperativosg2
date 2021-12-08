@@ -70,7 +70,20 @@ Bitacora de comandos linux para el curso sistemas operativos 2021
 | uname =a                                  | Da informacion sobre la version del kernel y la arquitectura |
 | sudo passwd -l 'nombre_usuario'           | Cambia la contraseña de un usuario                           |
 | w                                         | Muestra quienes estan en linea en el sistema                 |
-
+| docker ps                                 | Muestra todos los contenedores de docker que se estan corriendo |
+| docker ps -a                              | Muestra todos los contenedores que estan en el sistema incluidos los que no estan corriendo |
+| docker pull 'image'                       | Jala una imagen especifica de docker                            |
+| docker run 'image'                        | Corre una imagen de docker                                      |
+| docker exec -it 'id_contenedor' bash      | Permite acceder un contenedor que esta corriendo                |
+| docker stop 'id_contenedor'               | Detiene un contenedor que esta corriendo                        |
+| docker kill 'id_contenedor'               | Detiene un contenedor a la fuerza                               |
+| docker commit 'id_contendor' 'nombre_usuario/nombre_imagen' | Crea una nueva imagen de un contenedor editado en el sistema local |
+| docker login                              | Hace login a docker hub |
+| docker push 'nombre_usuario/nombre_imagen' | Sube una imagen al repositorio de docker hub |
+| docker images                             | Muestra todas las imagenes que estan guardadas localmente |
+| docker rm 'id_contenedor'                 | Borra un contenedor que ya ha sido detenido |
+| docker rmi 'id_contenedor'                | Borra una imagen del espacio local |
+| docker build                              | Construye una imagen de un archivo docker que se ha especificado previamente |
 
 
 
