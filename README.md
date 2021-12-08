@@ -41,3 +41,5 @@ Bitacora de comandos linux para el curso sistemas operativos 2021
 | sudo snap install 'snap'                  | Se utiliza para instalar programas mediante snapcraft.io |
 | cut -d: -f1 /etc/passwd                   | Muestra la lista de usuarios que se guardan en /etc/passwd |
 | sudo systemctl start/restart/stop/reload/status 'proceso'            | Permite ver diferentes opciones sobre los procesos de systemd y service manager |
+| man 'comando'                             | Muestra toda la informacion sobre ese comando en especifico |
+| 
